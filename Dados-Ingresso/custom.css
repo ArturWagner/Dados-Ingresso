@@ -1,0 +1,113 @@
+
+                              /*barra fixada*/
+                              .navbar {
+                              position: fixed;
+                              min-height: 50px;
+                              margin-bottom: 20px;
+                              }
+                              
+                              .col-sm-12 {
+                              width: 100%;
+                              margin-top:75px;
+                              }
+
+
+                              /*cor fundo*/
+                              .content {
+                              min-height: 250px;
+                              padding: 15px;
+                              margin-right: auto;
+                              margin-left: auto;
+                              background-color:#FFFFFF
+                              }
+                              .skin-blue .wrapper {
+                              background-color: #FFF;
+                              }
+  
+                              /*informativos*/
+                              .alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body {
+                              background-color: #94C122 !important;
+                              background-image: linear-gradient(45deg, #A2CD5A, #BCEE68);
+                              margin-top:30px;
+                              }
+
+                              /* box-status */
+                              .box.box-solid.box-primary>.box-header {
+                              color:#fff;
+                              background:#94C122
+                              }
+                              .box.box-solid.box-primary{
+                              border-bottom-color:#666666;
+                              border-left-color:#666666;
+                              border-right-color:#666666;
+                              border-top-color:#666666;
+                              }
+                                
+                              /* logo */
+                              .skin-blue .main-header .logo {
+                              background-color: #BCEE68;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #CAFF70);
+                              min-height: 75px;
+                              width:1400px;
+                              position:fixed;
+                              }
+                               
+                              /* logo when hovered */
+                              .skin-blue .main-header .logo:hover {
+                              background-color: #A2CD5A;
+                              position:fixed;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #CAFF70)
+                              }
+                                
+                              /* navbar (rest of the header) */
+                              .skin-blue .main-header .navbar {
+                              background-color: #A2CD5A;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #CAFF70);
+                              position:fixed;
+                              margin-left: 250px;
+                              border: none;
+                              min-height: 75px;
+                              }        
+                                
+                               /* main sidebar */
+                              .skin-blue .main-sidebar {
+                              font-family: "Georgia", Times, "Times New Roman", serif;
+                              font-weight: bold;
+                              background-color: #ABB876;
+                              margin-top: 30px;
+                              position:fixed;
+                              background-image: linear-gradient(to bottom, #CAFF70, #A2CD5A)
+                              }
+                              .left-side, .main-sidebar {
+                              position: absolute;
+                              top: 0;
+                              left: 0;
+                              padding-top: 50px;
+                              min-height: 100%;
+                              z-index: 810;
+                              }
+                          
+                              /* active selected tab in the sidebarmenu */
+                              .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                              background-color: #BCEE68;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #BCEE68);
+                              }
+                                
+                              /* other links in the sidebarmenu */
+                              .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                              background-color: #BCEE68;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #BCEE68);
+                              color: #BCEE68;
+                              } 
+                                
+                              /* other links in the sidebarmenu when hovered */
+                              .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                              background-color: #BCEE68;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #BCEE68);
+                              }
+                              /* toggle button when hovered  */                    
+                              .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                              background-color: #BCEE68;
+                              background-image: linear-gradient(to bottom, #A2CD5A, #CAFF70);
+                              }
+                                '
